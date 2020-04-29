@@ -1,0 +1,42 @@
+body {
+  min-height: 200px;
+  width: 400px;
+}
+
+.tag,
+.tag__title,
+.tag__description,
+.tag__choices,
+.tag__button,
+.tag__description__label,
+.tag__description__url {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.tag__title {
+  font-size: 18px;
+}
+
+.tag__description__label {
+  font-size: 16px;
+}
+
+.tag__description__url {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 2.5px;
+  font-size: 14px;
+  min-height: 30px;
+  padding: 7px;
+}
+
+.tag__button__update {
+  min-height: 30px;
+}
+
+.js-choice {
+  max-width: 250px;
+}

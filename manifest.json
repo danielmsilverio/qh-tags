@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "version": "0.0.2",
+  "name": "QH-tags",
+  "description": "Tags para QH",
+  "author": "Daniel Mariano Silvério",
+  "browser_action": {
+    "default_title": "QH - Tags",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
